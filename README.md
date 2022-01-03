@@ -49,7 +49,7 @@ MainSection:NewToggle("Slow Cars", "makes the cars so slow that they can't drive
     end
 end)
 
-MainSection:NewToggle("Turn Carts On!", "turn al the carts on!", function(state)
+MainSection:NewToggle("Turn Carts On!", "turn all the carts on!", function(state)
     if state then
         _G.Red = true
         if _G.Red == true then
@@ -68,7 +68,7 @@ MainSection:NewToggle("Turn Carts On!", "turn al the carts on!", function(state)
     end
 end)
 
-MainSection:NewToggle("Turn Carts Off!", "turn al the carts off!", function(state)
+MainSection:NewToggle("Turn Carts Off!", "turn all the carts off!", function(state)
     if state then
         _G.Green = true
         if _G.Green == true then
